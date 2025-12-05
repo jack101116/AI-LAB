@@ -12,7 +12,7 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping
-
+#JACK ========
 # =============================
 # 1. LOAD DATA
 # =============================
@@ -230,3 +230,4 @@ for t, p in list(zip(y_test_labels, y_pred_labels))[:10]:
     print(f"True: {t}  |  Pred: {p}")
 
 print("\n=== DONE (Feedforward ANN with Backprop + Confusion Matrix Plot) ===")
+
